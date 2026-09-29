@@ -1,0 +1,21 @@
+[1mdiff --git a/basics/introduction.js b/basics/introduction.js[m
+[1mindex b28c7b1..904112b 100644[m
+[1m--- a/basics/introduction.js[m
+[1m+++ b/basics/introduction.js[m
+[36m@@ -4,4 +4,13 @@[m [mconsole.log(`hello javascript aaj 28 sep 2026 se maine apni javascript learning[m
+     iske andar maine readme.md file banayi,jo project ke baare mein information rakhane ke liye hoti[m
+     hai,aur basics folder banaya jisme main apni javascript pratice karunga[m
+     basics ke andar main introduction,js file banayi aur apna first javascrpit code console.log[m
+[31m-    () se likha saath  `);[m
+\ No newline at end of file[m
+[32m+[m[32m    () se likha[m[41m [m
+[32m+[m[32m     1:saath hi maine git aur github ke basic overflow practically seekha[m[41m [m
+[32m+[m[32m     git init= folder ko repository banata hai[m
+[32m+[m[32m     git status=file ki current status aur changes dikhata hai[m[41m [m
+[32m+[m[32m     git add . =changes of staging area mai rakhta hai[m
+[32m+[m[32m     git commit -m "message "= staged changes ka snapshot local git history mai save karta hai[m
+[32m+[m[32m     git remote add origin= local repository ko github repository se connect karta hai[m
+[32m+[m[32m     git branch -M main= main branch ka naam main set karta hai name kuch bhi ho sakta hai[m
+[32m+[m[32m     git push -u origin main =local commit ko github per bhejta hai[m
+[32m+[m[32m     2:saath hi maine git aur github ke basic overflow practically seekha`);[m
+\ No newline at end of file[m
