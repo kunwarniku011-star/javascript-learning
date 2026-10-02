@@ -16,6 +16,14 @@ console.log("x +=5 is "+x);
 x-=3;
 console.log("x -=3",x);
 //comparison operators ex==,===,!=,!==,>,<,>=,<= etc used to compare two values
+console.log(`a==b:${a==b}`);
+console.log(`a===b:${a===b}`);
+console.log(`a!=b:${a!=b}`);
+console.log(`a!==b:${a!==b}`);
+console.log(`a>b:${a>b}`);
+console.log(`a<b:${a<b}`);
+console.log(`a>=b:${a>=b}`);
+console.log(`a<=b:${a<=b}`);
 
 //logical operators ex=&&,||,! etc used to combine multiple conditions
 //bitwise operators ex=&,|,^,~,<<,>> etc used to perform bitwise operations
