@@ -2,6 +2,7 @@
 //airthmetic operators ex=+,-,/,* etc
 let a=10;
 let b=20;
+let c=30;
 console.log(a+b);
 console.log(a-b);
 console.log(a*b);
@@ -26,5 +27,8 @@ console.log(`a>=b:${a>=b}`);
 console.log(`a<=b:${a<=b}`);
 
 //logical operators ex=&&,||,! etc used to combine multiple conditions
+console.log(`a&&b:${a&&b}`);
+console.log(`a||b:${a||b}`);
+console.log(`!a:${!a}`);
 //bitwise operators ex=&,|,^,~,<<,>> etc used to perform bitwise operations
 //ternary operators ex=condition?value1:value2 used to assign value based on condition
