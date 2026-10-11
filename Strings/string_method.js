@@ -15,3 +15,11 @@ console.log(message.includes("javascript"));//output will be true or false
 console.log("method 5. startswith()");//checks weather the string starts from that specific word or not
 let word="javascript";
 console.log(word.startsWith("java"));//returns true or false value
+console.log("method 5. endswith()");//checks wheather string ends with particular string
+let file="script.js";
+console.log(file.endsWith("js"));//output will be true or false 
+console.log("method 6. slice()");//extracts a portion of a string and returns it as a new string 
+//syntax string.slice(start,end) note : end index is not include
+let k="java script"
+console.log(k.slice(0,4))
+
