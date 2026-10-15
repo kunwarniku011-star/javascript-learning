@@ -1,7 +1,7 @@
 const calculateBtn = document.getElementById("calculatebtn");
-
+//add event listener to the button
 calculateBtn.addEventListener("click", function() {
-
+//get the values from the input fields
     const STUDENTNAME= document.getElementById("student name").value;
     const STUDENTID = document.getElementById("student id").value;
 
