@@ -21,5 +21,12 @@ console.log(file.endsWith("js"));//output will be true or false
 console.log("method 6. slice()");//extracts a portion of a string and returns it as a new string 
 //syntax string.slice(start,end) note : end index is not include
 let k="java script"
-console.log(k.slice(0,4))
+console.log(k.slice(0,4))//output will be java
+console.log("method 7. replace()")//replaces a specified value with another value in a string
+let messsagae="i like java";//synatx .replace(old,new);
+console.log(message.replace("java","javascript"));//output will be i like javascript
+console.log("method 8: split")//converts a string into a array based on a specified separartor
+let fruits="apple,bananana,mango";
+let result=fruits.split(",");
+console.log(result);//output will be a array
 
