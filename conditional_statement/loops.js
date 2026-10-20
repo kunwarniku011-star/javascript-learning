@@ -38,3 +38,13 @@ do{
     console.log(k);
     k++;
 }while(k<5);
+//nested loops are loops inside loops. They are used to perform more complex iterations.
+let m=0;
+while(m<3){
+    let n=0;
+    while(n<3){
+        console.log(`m: ${m}, n: ${n}`);
+        n++;
+    }
+    m++;
+    
